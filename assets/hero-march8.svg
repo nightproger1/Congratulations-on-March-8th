@@ -1,0 +1,109 @@
+﻿<svg width='960' height='720' viewBox='0 0 960 720' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <defs>
+    <linearGradient id='bg' x1='80' y1='40' x2='860' y2='660' gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#FFF6E9' />
+      <stop offset='0.55' stop-color='#FFE5DE' />
+      <stop offset='1' stop-color='#FEE8F3' />
+    </linearGradient>
+    <linearGradient id='glass' x1='238' y1='128' x2='718' y2='596' gradientUnits='userSpaceOnUse'>
+      <stop stop-color='white' stop-opacity='0.9' />
+      <stop offset='1' stop-color='white' stop-opacity='0.56' />
+    </linearGradient>
+    <linearGradient id='wrap' x1='402' y1='278' x2='584' y2='592' gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#FFB189' />
+      <stop offset='1' stop-color='#FF7B98' />
+    </linearGradient>
+    <linearGradient id='leaf' x1='326' y1='288' x2='496' y2='502' gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#79D8AE' />
+      <stop offset='1' stop-color='#4DAA82' />
+    </linearGradient>
+    <linearGradient id='leaf2' x1='538' y1='288' x2='660' y2='504' gradientUnits='userSpaceOnUse'>
+      <stop stop-color='#A6EDC8' />
+      <stop offset='1' stop-color='#61B38D' />
+    </linearGradient>
+    <filter id='blur' x='0' y='0' width='960' height='720' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+      <feGaussianBlur stdDeviation='32' />
+    </filter>
+  </defs>
+
+  <rect width='960' height='720' rx='48' fill='url(#bg)' />
+
+  <g filter='url(#blur)' opacity='0.75'>
+    <circle cx='180' cy='138' r='72' fill='#FFD587' />
+    <circle cx='784' cy='138' r='70' fill='#FFA5B8' />
+    <circle cx='788' cy='564' r='82' fill='#B3F0D0' />
+  </g>
+
+  <rect x='204' y='118' width='520' height='486' rx='40' fill='url(#glass)' stroke='white' stroke-opacity='0.7' stroke-width='3' />
+
+  <circle cx='278' cy='190' r='48' fill='#FFF3BE' />
+  <path d='M259 190C259 179.507 267.507 171 278 171C288.493 171 297 179.507 297 190' stroke='#FF7B98' stroke-width='8' stroke-linecap='round' />
+  <circle cx='264' cy='184' r='5' fill='#35222A' />
+  <circle cx='292' cy='184' r='5' fill='#35222A' />
+
+  <rect x='654' y='178' width='166' height='110' rx='28' transform='rotate(9 654 178)' fill='#FFF9F3' stroke='#F5C8B7' stroke-width='3' />
+  <text x='683' y='226' fill='#A63C5C' font-size='30' font-family='Verdana, sans-serif' font-weight='700'>8 MAR</text>
+  <text x='690' y='258' fill='#62424D' font-size='18' font-family='Verdana, sans-serif'>bloom mode</text>
+
+  <rect x='160' y='500' width='170' height='90' rx='26' transform='rotate(-7 160 500)' fill='#FFFFFF' fill-opacity='0.85' stroke='#F7D8A7' stroke-width='3' />
+  <text x='192' y='548' fill='#7A3451' font-size='22' font-family='Verdana, sans-serif' font-weight='700'>main</text>
+  <text x='190' y='576' fill='#7A3451' font-size='22' font-family='Verdana, sans-serif' font-weight='700'>character</text>
+
+  <path d='M366 286C343 250 328 214 324 178' stroke='#579D79' stroke-width='7' stroke-linecap='round' />
+  <path d='M420 284C410 236 408 196 414 158' stroke='#579D79' stroke-width='7' stroke-linecap='round' />
+  <path d='M468 294C468 242 474 190 494 150' stroke='#579D79' stroke-width='7' stroke-linecap='round' />
+  <path d='M524 300C540 248 566 204 602 170' stroke='#579D79' stroke-width='7' stroke-linecap='round' />
+  <path d='M566 310C600 274 628 234 650 182' stroke='#579D79' stroke-width='7' stroke-linecap='round' />
+
+  <ellipse cx='346' cy='318' rx='54' ry='26' transform='rotate(-18 346 318)' fill='url(#leaf)' />
+  <ellipse cx='382' cy='350' rx='62' ry='28' transform='rotate(22 382 350)' fill='#88DEB7' />
+  <ellipse cx='598' cy='328' rx='60' ry='27' transform='rotate(14 598 328)' fill='url(#leaf2)' />
+  <ellipse cx='552' cy='374' rx='64' ry='28' transform='rotate(-26 552 374)' fill='#7DD5A9' />
+  <ellipse cx='470' cy='394' rx='74' ry='30' transform='rotate(8 470 394)' fill='#B8EFD2' />
+
+  <g>
+    <circle cx='322' cy='182' r='26' fill='#FF7B98' />
+    <circle cx='296' cy='210' r='26' fill='#FF9AB0' />
+    <circle cx='348' cy='210' r='26' fill='#FF9AB0' />
+    <circle cx='322' cy='238' r='26' fill='#FF7B98' />
+    <circle cx='322' cy='210' r='22' fill='#FFF3BE' />
+  </g>
+
+  <g>
+    <circle cx='412' cy='154' r='24' fill='#FFB44F' />
+    <circle cx='388' cy='180' r='24' fill='#FFD16D' />
+    <circle cx='436' cy='180' r='24' fill='#FFD16D' />
+    <circle cx='412' cy='206' r='24' fill='#FFB44F' />
+    <circle cx='412' cy='180' r='19' fill='#FFF8E1' />
+  </g>
+
+  <g>
+    <circle cx='500' cy='146' r='25' fill='#F36A8B' />
+    <circle cx='474' cy='174' r='25' fill='#F9A0B6' />
+    <circle cx='526' cy='174' r='25' fill='#F9A0B6' />
+    <circle cx='500' cy='202' r='25' fill='#F36A8B' />
+    <circle cx='500' cy='174' r='20' fill='#FFF1A8' />
+  </g>
+
+  <g>
+    <circle cx='614' cy='164' r='24' fill='#F7B564' />
+    <circle cx='590' cy='188' r='24' fill='#FFD27B' />
+    <circle cx='638' cy='188' r='24' fill='#FFD27B' />
+    <circle cx='614' cy='212' r='24' fill='#F7B564' />
+    <circle cx='614' cy='188' r='20' fill='#FFF7D2' />
+  </g>
+
+  <path d='M384 296L458 578L326 546L384 296Z' fill='url(#wrap)' />
+  <path d='M564 302L626 560L468 578L564 302Z' fill='#FF8BA7' />
+  <path d='M384 296L564 302L468 578L384 296Z' fill='#FFC1A0' fill-opacity='0.92' />
+  <path d='M334 548C396 520 512 518 612 556' stroke='#FFF6F1' stroke-width='8' stroke-linecap='round' />
+  <path d='M346 570C420 542 514 544 598 578' stroke='#D75679' stroke-width='10' stroke-linecap='round' />
+
+  <rect x='368' y='524' width='208' height='28' rx='14' fill='#FFEEF1' />
+  <text x='408' y='544' fill='#A63C5C' font-size='22' font-family='Verdana, sans-serif' font-weight='700'>for your glow</text>
+
+  <path d='M738 460C738 442.327 752.327 428 770 428C787.673 428 802 442.327 802 460C802 477.673 787.673 492 770 492C752.327 492 738 477.673 738 460Z' fill='#FFF7D9' />
+  <circle cx='758' cy='452' r='4.5' fill='#342026' />
+  <circle cx='782' cy='452' r='4.5' fill='#342026' />
+  <path d='M756 468C760.667 474 766 477 770 477C774 477 779.333 474 784 468' stroke='#FF7B98' stroke-width='7' stroke-linecap='round' />
+</svg>
